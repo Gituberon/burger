@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+.header ul{
+    display: flex;
+    grid-template-columns: repeat(1fr, 6);
+    column-gap: 42px;
+    list-style-type: none;
+}
+ul li{
+    text-align: center;
+}
+section{
+    max-width: 1140px;
+    margin: auto;
+}
+.section{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    text-align: center;
+}
+.section__header{
+    background: rgba(196, 196, 196, 0.50);
+    gap: 20px;
+}
+.section__main{
+    background: rgba(196, 196, 196, 0.50);
+    gap: 20px;
+}
+
